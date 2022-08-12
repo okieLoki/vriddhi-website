@@ -1,0 +1,36 @@
+.articles .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    gap: 3rem;
+}
+
+.articles .left {
+    text-align: center;
+}
+
+.articles img {
+    width: 300px;
+}
+
+.articles img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.articles .right p {
+    margin: 2rem 0;
+}
+
+.image-screen{
+    box-shadow: 3px 3px 3px 3px rgba(178, 175, 175, 0.564);
+    border-radius: 25px;
+}
+
+@media screen and (max-width:940px) {
+    .articles .container {
+        grid-template-columns: 1fr;
+    }
+}
