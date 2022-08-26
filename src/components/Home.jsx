@@ -18,7 +18,7 @@ const Home = () => {
                 {/* Right Side */}
                 <div className='left'>
                     <p>Worried about your child's development?</p>
-                    <h1>WeCare is here to help you out 🚀</h1>
+                    <h1>Vriddhi is here to help you out 🚀</h1>
                     <p>Provides your child with daily interactive quizes for his overall motor, psychometric and physical development.</p>
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />

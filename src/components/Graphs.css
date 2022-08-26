@@ -1,4 +1,4 @@
-.home .container {
+.graphs .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 4rem auto;
@@ -8,36 +8,39 @@
     overflow: hidden;
 }
 
-.home .left {
+.graphs .left {
     padding: 1rem;
 }
 
-.home h1 {
+.graphs h1 {
     padding: 1rem 0;
 }
 
-.home .input-container {
+.graphs .input-container {
     padding: 1rem 0;
 }
 
-.home .right {
+.graphs .right {
     padding: 1rem;
 }
 
-.home .img-container {
+.graphs .img-container {
     width: 100%;
     display: flex;
 }
 
-.home img {
+.graphs img {
     max-width: 100%;
     margin: auto;
 }
 
 @media screen and (max-width: 940px) {
-    .home .container {
+    .graphs .container {
         grid-template-columns: 1fr;
         margin: 1rem 0;
+    }
+    .graph .left{
+        width: 100px;
     }
 }
 

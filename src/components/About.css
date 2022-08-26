@@ -4,6 +4,8 @@
     background-color: var(--background);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .about .container {
@@ -93,6 +95,11 @@
     .about .left .btn {
         align-self: center;
     }
+
+    .about{
+        min-height: 150rem;
+    }
+    
 }
 
 
@@ -100,4 +107,5 @@
     .about .container .right .card {
         width: 100%;
     }
+
 }

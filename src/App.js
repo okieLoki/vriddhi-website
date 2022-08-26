@@ -4,6 +4,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Articles from "./components/Articles";
 import Contact from './components/Contact'
+import Graphs from './components/Graphs'
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
     <Navbar></Navbar>
     <Home></Home>
     <About></About>
+    <Graphs></Graphs>
+    <Testimonials></Testimonials>
     <Articles></Articles>
     <Contact></Contact>
     </>

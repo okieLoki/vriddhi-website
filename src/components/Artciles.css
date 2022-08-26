@@ -5,6 +5,7 @@
     align-items: center;
     padding: 3rem 1rem;
     gap: 3rem;
+    overflow: hidden;
 }
 
 .articles .left {

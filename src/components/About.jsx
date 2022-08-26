@@ -10,9 +10,9 @@ const About = () => {
             <div className='container'>
                 {/* Left */}
                 <div className='left'>
-                    <h2>What is WeCare? 🤔</h2>
+                    <h2>What is Vriddhi? 🤔</h2>
                     <p>
-                        WeCare is a mobile app developed for children between the age group 6-12. It provides daily interactive quizes for overall motor, psychometric and physical development with personalized reports. 
+                        Vriddhi is a mobile app developed for children between the age group 6-12. It provides daily interactive quizes for overall motor, psychometric and physical development with personalized reports. 
                     </p>
                     <button className='btn'>Get the App !</button>
                 </div>

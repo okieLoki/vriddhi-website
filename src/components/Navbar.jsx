@@ -13,7 +13,7 @@ const Navbar = () => {
 
             <div className='container'>
 
-                <h2>We<span className='primary'>Care</span></h2>
+                <h2 className='primary'>Vriddhi</h2>
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
@@ -27,6 +27,12 @@ const Navbar = () => {
                     </li>
                     <li>
                     <Link to='contact' smooth='true' duration={500}>Contact</Link>
+                    </li>
+                    <li>
+                    <Link to='graphs' smooth='true' duration={500}>Stats</Link>
+                    </li>
+                    <li>
+                    <Link to='testimonials' smooth='true' duration={500}>Testimonials</Link>
                     </li>
                 </ul>
 
